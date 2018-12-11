@@ -1,3 +1,5 @@
+// Publicly avaiable formula from: https://www.randonner.ch/fr/signalisation/signalisation/temps-de-marche
+
 const CS = [
   14.271,
   3.6991,
