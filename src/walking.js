@@ -21,8 +21,8 @@ const CS = [
 
 /**
  * Calculates the walking time of a segment.
- * @param length Length in meters.
- * @param heightDifference Height difference in meters.
+ * @param {number} length Length in meters.
+ * @param {number} heightDifference Height difference in meters.
  * @return {number} Walking time in seconds.
  */
 export function computeWalkingTime(length, heightDifference) {
@@ -46,7 +46,7 @@ export function computeWalkingTime(length, heightDifference) {
 
 /**
  * Retrieve track properties like the total duration estimated for the track.
- * @param {Array.<{ele: number, dist: number}>} trackProfile
+ * @param {Array<{ele: number, dist: number}>} trackProfile
  * @return {{distance: number, duration: number, ascent: number, descent: number, minElevation: number, maxElevation: number}}
  */
 export function computeTrackProperties(trackProfile) {
