@@ -6,6 +6,7 @@
   "module": "dist/tracktime.js",
   "source": "src/index.js",
   "scripts": {
+    "prepublish": "npm run build",
     "eslint": "eslint src",
     "build": "microbundle --format es",
     "typecheck": "tsc --pretty",
