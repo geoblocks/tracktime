@@ -1,3 +1,4 @@
+*.tgz
 .eslintrc.yml
 .travis.yml
 tsconfig.json
