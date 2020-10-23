@@ -2,8 +2,8 @@
   "name": "@geoblocks/tracktime",
   "version": "0.0.4",
   "description": "Geoblocks tracktime",
-  "main": "dist/tracktime.js",
-  "module": "dist/tracktime.js",
+  "main": "src/tracktime.js",
+  "module": "src/tracktime.js",
   "scripts": {
     "lint": "eslint src"
   },
