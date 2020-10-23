@@ -1,5 +1,4 @@
 *.tgz
 .eslintrc.yml
-.travis.yml
 jsconfig.json
 .editorconfig
