@@ -1,6 +1,6 @@
 {
   "name": "@geoblocks/tracktime",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Geoblocks tracktime",
   "main": "dist/tracktime.js",
   "module": "dist/tracktime.js",
