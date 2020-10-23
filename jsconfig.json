@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "target": "es6"
+  },
+  "include": [
+    "src/**/*.js"
+  ]
+}
