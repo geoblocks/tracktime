@@ -14,7 +14,7 @@
     "test": "npm run lint && npm run build"
   },
   "author": "info@camptocamp.com",
-  "license": "bsd",
+  "license": "BSD-3-Clause",
   "devDependencies": {
     "eslint": "5.16.0",
     "eslint-config-openlayers": "11.0.0",
