@@ -1,6 +1,6 @@
 {
   "name": "@geoblocks/tracktime",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Geoblocks tracktime",
   "main": "src/walking.js",
   "module": "src/walking.js",
