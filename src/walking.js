@@ -36,16 +36,17 @@ function clamp(num, min, max) {
  * @return {number} Walking time in seconds.
  */
 export function computeWalkingTime(length, heightDifference) {
-  if (length === 0) {
+  if (length > 0) {
+    const slope10 = clamp(10 * heightDifference / length, -4, 4);
+    let minPerKm = 0; // walking speed in minutes per kilometer
+    for (let i = 0, ii = CS.length; i < ii; i++) {
+      minPerKm += CS[i] * Math.pow(slope10, i);
+    }
+    const secondsPerMeter = 60 * minPerKm / 1000;
+    return secondsPerMeter * length;
+  } else {
     return 0;
   }
-  const slope10 = clamp(10 * heightDifference / length, -4, 4);
-  let minPerKm = 0; // walking speed in minutes per kilometer
-  for (let i = 0, ii = CS.length; i < ii; i++) {
-    minPerKm += CS[i] * Math.pow(slope10, i);
-  }
-  const secondsPerMeter = 60 * minPerKm / 1000;
-  return secondsPerMeter * length;
 }
 
 /**
