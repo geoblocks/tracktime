@@ -11,9 +11,9 @@
   "author": "info@camptocamp.com",
   "license": "BSD-3-Clause",
   "devDependencies": {
-    "eslint": "7.11.0",
+    "eslint": "^7.13.0",
     "esm": "^3.2.25",
     "expect.js": "^0.3.1",
-    "mocha": "^8.2.0"
+    "mocha": "^8.2.1"
   }
 }
