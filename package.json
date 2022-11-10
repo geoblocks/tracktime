@@ -4,6 +4,7 @@
   "description": "Geoblocks tracktime",
   "main": "src/walking.js",
   "module": "src/walking.js",
+  "type": "module",
   "scripts": {
     "lint": "eslint src test",
     "test": "mocha"
@@ -12,8 +13,7 @@
   "license": "BSD-3-Clause",
   "devDependencies": {
     "eslint": "^7.13.0",
-    "esm": "^3.2.25",
     "expect.js": "^0.3.1",
-    "mocha": "^8.2.1"
+    "mocha": "^10.1.0"
   }
 }
